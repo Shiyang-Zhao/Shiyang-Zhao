@@ -17,18 +17,14 @@ I'm a passionate software developer with a love for creating innovative solution
 
 
 ## Projects
-- **Project 1:** [Awesome App](https://github.com/your-username/awesome-app) - A feature-rich web application built with React and Node.js, providing users with a seamless experience.
-- **Project 2:** [Cool Library](https://github.com/your-username/cool-library) - A RESTful API built with Django and PostgreSQL, serving as a centralized platform for book lovers.
+- **Project 1:** [EmploVerse] (https://github.com/Shiyang-Zhao/EmploVerse-Frontend)- A feature-rich web application built with React and Node.js, providing users with a seamless experience.
+- **Project 2:** [FileShareX](https://github.com/your-username/cool-library) - A RESTful API built with Django and PostgreSQL, serving as a centralized platform for book lovers.
 - **Project 3:** [Amazing Portfolio](https://github.com/your-username/amazing-portfolio) - A personal website showcasing my skills, projects, and achievements.
-
-## Open Source Contributions
-- [Repository Name](https://github.com/your-username/repository-name) - Brief description of your contribution.
-- [Repository Name](https://github.com/your-username/repository-name) - Brief description of your contribution.
 
 ## Connect with Me
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
-<a>[![GitHub](https://img.shields.io/github/followers/Shiyang-Zhao?label=Follow%20%40Shiyang-Zhao&style=social)](https://github.com/Shiyang-Zhao)</a>
+<a>[![GitHub](https://img.shields.io/github/followers/Shiyang-Zhao?label=Follow%20%40Shiyang-Zhao&style=social)](https://github.com/Shiyang-Zhao)
 <a>[![Instagram](https://img.shields.io/badge/Connect%20with%20me%20on-Instagram-orange)](https://www.instagram.com/shawn_zhao0/)
 <a>[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue)](https://www.linkedin.com/in/shiyang-zhao-0a3a411a0/)
 <a>[![Portfolio](https://img.shields.io/badge/Check%20out%20my-Portfolio-yellow)](https://shiyang-zhao.github.io/)
