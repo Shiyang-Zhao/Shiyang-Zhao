@@ -13,7 +13,7 @@ Computer Science Bachelor with work experience in full-stack development, object
 ## Projects
 - **Project 1:** [EmploVerse](https://github.com/Shiyang-Zhao/EmploVerse-Frontend)- ●	Developed EmploVerse, an employee management web application using Java Spring, React.js, and MySQL with RBAC and JWT for secure authentication.
 - **Project 2:** [FileShareX](https://github.com/Shiyang-Zhao/FileSharingWebApp) - ●	Built a file sharing web application utilizing Python, Django, Bootstrap that allows users to securely login, upload files, and manage their uploaded files.
-- **Project 3:** [Amazing Portfolio](https://shiyang-zhao.github.io/) - ●	Created the portfolio website in minimalist style utilizing JavaScript, React.js, Bootstrap to showcase my skills and creativity
+- **Project 3:** [Shiyang Zhao's Portfolio](https://shiyang-zhao.github.io/) - ●	Created the portfolio website in minimalist style utilizing JavaScript, React.js, Bootstrap to showcase my skills and creativity
 
 ## Connect with Me
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
