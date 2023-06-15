@@ -17,9 +17,9 @@ I'm a passionate software developer with a love for creating innovative solution
 
 
 ## Projects
-- **Project 1:** [EmploVerse](https://github.com/Shiyang-Zhao/EmploVerse-Frontend)- A feature-rich web application built with React and Node.js, providing users with a seamless experience.
-- **Project 2:** [FileShareX](https://github.com/Shiyang-Zhao/FileSharingWebApp) - A RESTful API built with Django and PostgreSQL, serving as a centralized platform for book lovers.
-- **Project 3:** [Amazing Portfolio](https://shiyang-zhao.github.io/) - A personal website showcasing my skills, projects, and achievements.
+- **Project 1:** [EmploVerse](https://github.com/Shiyang-Zhao/EmploVerse-Frontend)- ●	Developed EmploVerse, an employee management web application using Java Spring, React.js, and MySQL with RBAC and JWT for secure authentication.
+- **Project 2:** [FileShareX](https://github.com/Shiyang-Zhao/FileSharingWebApp) - ●	Built a file sharing web application utilizing Python, Django, Bootstrap that allows users to securely login, upload files, and manage their uploaded files.
+- **Project 3:** [Amazing Portfolio](https://shiyang-zhao.github.io/) - ●	Created the portfolio website in minimalist style utilizing JavaScript, React.js, Bootstrap to showcase my skills and creativity
 
 ## Connect with Me
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
