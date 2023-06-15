@@ -25,4 +25,4 @@ Feel free to reach out if you'd like to collaborate on a project or just want to
 
 Looking forward to connecting with fellow developers! 😄
 
-![Animation](https://github.com/Shiyang-Zhao/Shiyang-Zhao/blob/main/ezgif.com-video-to-gif.gif)
+![Animation](https://github.com/Shiyang-Zhao/Shiyang-Zhao/blob/main/static/ezgif.com-video-to-gif.gif)
