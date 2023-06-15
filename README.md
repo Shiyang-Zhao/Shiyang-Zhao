@@ -4,10 +4,10 @@
 I'm a passionate software developer with a love for creating innovative solutions. My expertise lies in full-stack web development, where I enjoy working with cutting-edge technologies to build robust and scalable applications.
 
 ## Skills
-- Programming Languages: JavaScript, Python, Java
-- Front-end: HTML, CSS, React, Angular
-- Back-end: Node.js, Express, Django
-- Databases: MySQL, MongoDB
+- Programming Languages: Java, JavaScript, Python, C/C++, C#
+- Front-end: HTML, CSS, React, Bootstrap, Material UI, Font Awesome
+- Back-end: Node.js, Django, Spring
+- Databases: MySQL, PostgreSQL
 - Version Control: Git, GitHub
 
 ## GitHub Stats
