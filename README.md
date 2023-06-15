@@ -28,7 +28,7 @@ I'm a passionate software developer with a love for creating innovative solution
 ## Connect with Me
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
-[![GitHub](https://img.shields.io/github/followers/your-username?label=Follow%20%40your-username&style=social)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/github/followers/your-username?label=Follow%20%40your-username&style=social)]([https://github.com/your-username](https://github.com/Shiyang-Zhao))
 [![Instagram](https://img.shields.io/badge/Connect%20with%20me%20on-Instagram-orange)]([https://www.instagram.com/your-username](https://www.instagram.com/shawn_zhao0/))
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue)]([https://www.linkedin.com/in/your-username](https://www.linkedin.com/in/shiyang-zhao-0a3a411a0/))
 [![Portfolio](https://img.shields.io/badge/Check%20out%20my-Portfolio-yellow)]([https://your-portfolio-website.com](https://shiyang-zhao.github.io/))
