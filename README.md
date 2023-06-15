@@ -10,12 +10,6 @@ I'm a passionate software developer with a love for creating innovative solution
 - Databases: MySQL, PostgreSQL
 - Tools: Git, GitHub, Heroku, AWS, Postman
 
-## GitHub Stats
-![GitHub stats](https://img.shields.io/github/followers/your-username?label=Followers&style=social)
-![GitHub stars](https://img.shields.io/github/stars/your-username?label=Stars&style=social)
-![GitHub contributions](https://img.shields.io/github/last-commit/your-username/your-repository?label=Contributions&style=social)
-
-
 ## Projects
 - **Project 1:** [EmploVerse](https://github.com/Shiyang-Zhao/EmploVerse-Frontend)- ●	Developed EmploVerse, an employee management web application using Java Spring, React.js, and MySQL with RBAC and JWT for secure authentication.
 - **Project 2:** [FileShareX](https://github.com/Shiyang-Zhao/FileSharingWebApp) - ●	Built a file sharing web application utilizing Python, Django, Bootstrap that allows users to securely login, upload files, and manage their uploaded files.
