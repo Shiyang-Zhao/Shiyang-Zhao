@@ -11,7 +11,10 @@ I'm a passionate software developer with a love for creating innovative solution
 - Tools: Git, GitHub, Heroku, AWS, Postman
 
 ## GitHub Stats
-![Shiyang Zhao's GitHub Stats]([https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical](https://github.com/Shiyang-Zhao?tab=repositories))
+![GitHub stats](https://img.shields.io/github/followers/your-username?label=Followers&style=social)
+![GitHub stars](https://img.shields.io/github/stars/your-username?label=Stars&style=social)
+![GitHub contributions](https://img.shields.io/github/last-commit/your-username/your-repository?label=Contributions&style=social)
+
 
 ## Projects
 - **Project 1:** [Awesome App](https://github.com/your-username/awesome-app) - A feature-rich web application built with React and Node.js, providing users with a seamless experience.
