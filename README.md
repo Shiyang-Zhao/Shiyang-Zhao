@@ -1,4 +1,4 @@
-# Hi, I'm John Doe! 👋
+# Hi there, I'm John Doe! 👋
 
 ## About Me
 I'm a passionate software developer with a love for creating innovative solutions. My expertise lies in full-stack web development, where I enjoy working with cutting-edge technologies to build robust and scalable applications.
@@ -9,6 +9,9 @@ I'm a passionate software developer with a love for creating innovative solution
 - Back-end: Node.js, Express, Django
 - Databases: MySQL, MongoDB
 - Version Control: Git, GitHub
+
+## GitHub Stats
+![John Doe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
 
 ## Projects
 - **Project 1:** [Awesome App](https://github.com/your-username/awesome-app) - A feature-rich web application built with React and Node.js, providing users with a seamless experience.
@@ -22,10 +25,9 @@ I'm a passionate software developer with a love for creating innovative solution
 ## Connect with Me
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
-- GitHub: [github.com/your-username](https://github.com/your-username)
-- LinkedIn: [linkedin.com/in/your-username](https://www.linkedin.com/in/your-username)
-- Twitter: [@your-username](https://twitter.com/your-username)
-- Portfolio: [your-portfolio-website.com](https://your-portfolio-website.com)
-- Email: your-email@example.com
+[![GitHub](https://img.shields.io/github/followers/your-username?label=Follow%20%40your-username&style=social)](https://github.com/your-username)
+[![Twitter](https://img.shields.io/twitter/follow/your-username?style=social)](https://twitter.com/your-username)
+[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue)](https://www.linkedin.com/in/your-username)
+[![Portfolio](https://img.shields.io/badge/Check%20out%20my-Portfolio-yellow)](https://your-portfolio-website.com)
 
 Looking forward to connecting with fellow developers! 😄
