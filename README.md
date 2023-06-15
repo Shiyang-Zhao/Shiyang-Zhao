@@ -31,3 +31,5 @@ Feel free to reach out if you'd like to collaborate on a project or just want to
 [![Portfolio](https://img.shields.io/badge/Check%20out%20my-Portfolio-yellow)](https://your-portfolio-website.com)
 
 Looking forward to connecting with fellow developers! 😄
+
+![Animation](https://your-gif-animation-url.com/animation.gif)
