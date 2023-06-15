@@ -15,7 +15,7 @@ Computer Science Bachelor with work experience in full-stack development, object
 - **Project 2:** [FileShareX](https://github.com/Shiyang-Zhao/FileSharingWebApp) - Built a file sharing web application utilizing Python, Django, Bootstrap that allows users to securely login, upload files, and manage their uploaded files.
 - **Project 3:** [Shiyang Zhao's Portfolio](https://shiyang-zhao.github.io/) - Created the portfolio website in minimalist style utilizing JavaScript, React.js, Bootstrap to showcase my skills and creativity
 
-## Connect with Me
+## Connect
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
 <a>[![GitHub](https://img.shields.io/github/followers/Shiyang-Zhao?label=Follow%20%40Shiyang-Zhao&style=social)](https://github.com/Shiyang-Zhao)
