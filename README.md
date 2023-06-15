@@ -8,10 +8,10 @@ I'm a passionate software developer with a love for creating innovative solution
 - Front-end: HTML, CSS, React, Bootstrap, Material UI, Font Awesome
 - Back-end: Node.js, Django, Spring
 - Databases: MySQL, PostgreSQL
-- Version Control: Git, GitHub
+- Tools: Git, GitHub, Heroku, AWS, Postman
 
 ## GitHub Stats
-![John Doe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
+![Shiyang Zhao's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
 
 ## Projects
 - **Project 1:** [Awesome App](https://github.com/your-username/awesome-app) - A feature-rich web application built with React and Node.js, providing users with a seamless experience.
