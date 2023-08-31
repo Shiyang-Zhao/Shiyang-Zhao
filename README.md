@@ -11,17 +11,17 @@ Computer Science Bachelor with work experience in full-stack development, object
 - Tools: Git, GitHub, Heroku, AWS, Postman, Selenium, Jenkins
 
 ## Projects
-- [EmploVerse](https://github.com/Shiyang-Zhao/EmploVerse-Frontend)</br>
+- __[EmploVerse](https://github.com/Shiyang-Zhao/EmploVerse-Frontend)__</br>
 1. Developed EmploVerse, an employee management web application using Java Spring, React.js, and MySQL with RBAC and JWT for secure authentication </br>
 2. Streamlined employee management processes, achieving up to 30% improvement in efficiency through seamless CRUD operations, advanced search capabilities, and simplified user access management</br>
 3. Implemented real-time chat functionality, resulting in a powerful 45% reduction in email correspondence for internal communication</br>
 4. Achieved a remarkable adoption rate, with 80% of the organization's employees actively using EmploVerse for daily employee management tasks</br>
 5. Utilized AWS and Heroku to deploy and manage, ensuring seamless scalability, robust security, and efficient backend services</br>
 
-- [Metasphere](https://github.com/Shiyang-Zhao/Metasphere)
+- __[Metasphere](https://github.com/Shiyang-Zhao/Metasphere)__
 1. Developed Metasphere, a dynamic social media web application utilizing Python, Django, PostgreSQL, Bootstrap, and Font Awesome</br>
 2. Implemented a robust search, file sharing, and lively comments, and fosters vibrant conversations through private messaging and group chats</br>
-3. Integrate Jenkins with GitHub using webhooks and Selenium to automate CI/CD pipeline</br>
+3. Integrate Jenkins with GitHub using webhooks and Selenium to automate the CI/CD pipeline</br>
 4. Increased the efficiency of file sharing by 20% and user engagement by 40%</br>
 5. Received positive feedback from users, with a 90% satisfaction rate reported in user surveys</br>
 
