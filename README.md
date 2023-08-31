@@ -1,3 +1,5 @@
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Shiyang-Zhao&theme=dark&border_radius=5.5&exclude_days=Sun%2CSat&card_width=1000)](https://git.io/streak-stats)
+
 # Hi there, I'm Shiyang Zhao! 👋
 
 ## About Me
