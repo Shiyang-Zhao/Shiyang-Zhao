@@ -28,7 +28,7 @@ Computer Science Bachelor with work experience in full-stack development, object
 - __Metasphere<!--(https://github.com/Shiyang-Zhao/Metasphere)-->__
 1. Developed Metasphere, a dynamic social media web application utilizing Python, Django, React.js, PostgreSQL, Bootstrap, and Docker </br>
 2. Implemented a robust search, file sharing, and lively comments, and fosters vibrant conversations by private messaging and group chats utilizing WebSocket and Django Channels </br>
-3. Integrated Jenkins with GitHub using webhooks and Selenium to automate CI/CD pipeline </br>
+3. Integrated Jenkins with Webhooks in Github and Selenium to automate CI/CD pipeline </br>
 4. Increased the efficiency of file sharing by 20% and user engagement by 40% </br>
 
 ## Connect
