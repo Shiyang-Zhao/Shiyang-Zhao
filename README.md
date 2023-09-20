@@ -7,7 +7,7 @@ Computer Science Bachelor with work experience in full-stack development, object
 
 ## Skills
 - Programming Languages: Java, JavaScript, Python, C/C++, C#
-- Front-end: HTML, CSS, React.js, Bootstrap, Material UI, Font Awesome, Tailwind CSS
+- Front-end: HTML, CSS, Sass, React.js, Bootstrap, Material UI, Font Awesome, Tailwind CSS
 - Back-end: Node.js, Django, Spring
 - Databases: MySQL, PostgreSQL, SQLite
 - Tools: Git, GitHub, Heroku, AWS, Postman, Selenium, Jenkins, Docker
