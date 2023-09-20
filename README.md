@@ -10,7 +10,7 @@ Computer Science Bachelor with work experience in full-stack development, object
 - Front-end: HTML, CSS, React.js, Bootstrap, Material UI, Font Awesome, Tailwind CSS
 - Back-end: Node.js, Django, Spring
 - Databases: MySQL, PostgreSQL, SQLite
-- Tools: Git, GitHub, Heroku, AWS, Postman, Selenium, Jenkins
+- Tools: Git, GitHub, Heroku, AWS, Postman, Selenium, Jenkins, Docker
 <!---<a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Shiyang-Zhao&theme=dark" />
 </a>
