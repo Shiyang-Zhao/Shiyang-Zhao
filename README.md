@@ -18,19 +18,6 @@ Computer Science Bachelor with work experience in full-stack development, object
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Shiyang-Zhao&layout=compact&langs_count=8&card_width=320&theme=dark" />
 </a>-->
 
-## Projects
-- __EmploVerse<!--(https://github.com/Shiyang-Zhao/EmploVerse-Frontend)-->__
-1. Built EmploVerse, an employee management web application using Java Spring, React.js, and MySQL with RBAC and JWT for secure authentication </br>
-2. Developed CRUD operations, attendance tracking, RBAC, and payroll system, resulting in a 35% improvement in efficiency in employee management </br>
-3. Implemented real-time chat functionality using WebSocket, resulting in a powerful 30% reduction in email correspondence for internal communication </br>
-4. Utilized AWS and Heroku to deploy and manage, ensuring seamless scalability, robust security, and efficient backend services </br>
-
-- __Metasphere<!--(https://github.com/Shiyang-Zhao/Metasphere)-->__
-1. Developed Metasphere, a dynamic social media web application utilizing Python, Django, React.js, PostgreSQL, Bootstrap, and Docker </br>
-2. Implemented a robust search, file sharing, and lively comments, and fosters vibrant conversations by private messaging and group chats utilizing WebSocket and Django Channels </br>
-3. Integrated Jenkins with Webhooks in Github and Selenium to automate CI/CD pipeline </br>
-4. Increased the efficiency of file sharing by 20% and user engagement by 40% </br>
-
 ## Connect
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
