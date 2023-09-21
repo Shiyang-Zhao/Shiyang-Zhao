@@ -13,12 +13,11 @@ Computer Science Bachelor with work experience in full-stack development, object
 - Tools: Git, GitHub, Heroku, AWS, Postman, Selenium, Jenkins, Docker
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Shiyang-Zhao" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Shiyang-Zhao&layout=compact&langs_count=8&card_width=320" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
 </a>
-
 
 ## Connect
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
