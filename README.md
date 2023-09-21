@@ -12,6 +12,16 @@ Computer Science Bachelor with work experience in full-stack development, object
 - Databases: MySQL, PostgreSQL, SQLite
 - Tools: Git, GitHub, Heroku, AWS, Postman, Selenium, Jenkins, Docker
 
+<div style="display: flex; justify-content: space-between;">
+  <a href="https://github.com/anuraghazra/github-readme-stats" style="flex: 1; margin-right: 10px;">
+    <img height="200" src="https://github-readme-stats.vercel.app/api?username=Shiyang-Zhao&theme=dark" />
+  </a>
+  <a href="https://github.com/anuraghazra/convoychat" style="flex: 1;">
+    <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs?username=Shiyang-Zhao&layout=compact&langs_count=8&card_width=320&theme=dark" />
+  </a>
+</div>
+
+
 ## Connect
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
