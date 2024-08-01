@@ -1,22 +1,39 @@
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Shiyang-Zhao&theme=dark&border_radius=5.5&card_width=1000)](https://git.io/streak-stats)
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Shiyang-Zhao&theme=dark&border_radius=5.5&card_width=1000" alt="GitHub Streak" />
+</div>
 
-# Hi there, I'm Shiyang Zhao! 👋
+<h1 align="center">Hi there, I'm Shiyang Zhao! 👋</h1>
 
 ## About Me
-Computer Science Bachelor with work experience in full-stack development, object-oriented programming, and artificial intelligence.
 
-## Skills
-- Programming Languages: Java, JavaScript, Python, C/C++, C#
-- Front-end: HTML, CSS, Sass, React.js, Bootstrap, Material UI, Font Awesome, Tailwind CSS
-- Back-end: Node.js, Django, Spring
-- Databases: MySQL, PostgreSQL, SQLite
-- Tools: Git, GitHub, Heroku, AWS, Postman, Selenium, Jenkins, Docker
+I'm a Master of Computer Science candidate at the University of Illinois at Urbana-Champaign, with a Bachelor's degree in Computer Science from Arizona State University. I have a strong background in full-stack development, object-oriented programming, and artificial intelligence. I'm passionate about creating innovative solutions that improve efficiency and enhance user experiences.
 
-<!--<a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Shiyang-Zhao&layout=compact&langs_count=8&&hide=css&card_width=320" />
-</a>-->
+## 🔧 Skills
 
-## Connect
+### Programming Languages
+- **Java**, **Python**, **JavaScript**, **TypeScript**
+
+### Front-End
+- **React.js**, **Bootstrap**, **Sass**, **Tailwind CSS**
+
+### Back-End
+- **Spring**, **Django**, **Next.js**, **Node.js**
+
+### Databases
+- **PostgreSQL**, **MySQL**, **SQLite**
+
+### Tools & Platforms
+- **Git**, **Jenkins**, **Selenium**, **AWS**, **Google Cloud**, **Microsoft Azure**, **Heroku**, **Docker**
+
+## 🛠 Professional Experience
+
+### Software Engineer at RND4IMPACT INC. (March 2023 - Jan 2024)
+- Developed full-stack web applications utilizing Java, Python, TypeScript, Spring Boot, Next.js, and Django.
+- Implemented RESTful APIs and integrated third-party services to enhance application functionality and scalability.
+- Automated deployment processes using CI/CD pipelines with Jenkins, resulting in a 40% reduction in deployment time and fewer production issues.
+- Assisted in debugging and resolving software issues by writing and running automated tests, improving code quality and reducing bugs by 20%.
+
+## 📫 Connect
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
 [![GitHub](https://img.shields.io/github/followers/Shiyang-Zhao?label=Follow%20%40Shiyang-Zhao&style=social)](https://github.com/Shiyang-Zhao)
