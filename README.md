@@ -1,19 +1,18 @@
+<h1 align="center">Hi there, I'm Shiyang Zhao! 👋</h1>
+
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Shiyang-Zhao&theme=dark&border_radius=5.5&card_width=1000" alt="GitHub Streak" />
 </div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shiyang-Zhao&show_icons=true&theme=dark&border_radius=5.5" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&theme=dark&border_radius=5.5" alt="Top Languages" />
-</div>
-
-<h1 align="center">Hi there, I'm Shiyang Zhao! 👋</h1>
 
 ## 👋 Welcome
 
 I'm a Master of Computer Science candidate at the University of Illinois at Urbana-Champaign, with a Bachelor's degree in Computer Science from Arizona State University. I have a strong background in full-stack development, object-oriented programming, and artificial intelligence. I'm passionate about creating innovative solutions that improve efficiency and enhance user experiences.
 
 ## 🔧 Skills
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shiyang-Zhao&show_icons=true&theme=dark&border_radius=5.5" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&theme=dark&border_radius=5.5" alt="Top Languages" />
+</div>
 
 ### Programming Languages
 - **Java**, **Python**, **JavaScript**, **TypeScript**
