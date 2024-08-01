@@ -33,6 +33,13 @@ I'm a Master of Computer Science candidate at the University of Illinois at Urba
 - Automated deployment processes using CI/CD pipelines with Jenkins, resulting in a 40% reduction in deployment time and fewer production issues.
 - Assisted in debugging and resolving software issues by writing and running automated tests, improving code quality and reducing bugs by 20%.
 
+## 📈 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shiyang-Zhao&show_icons=true&theme=dark&border_radius=5.5" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&theme=dark&border_radius=5.5" alt="Top Languages" />
+</div>
+
 ## 📫 Connect
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
