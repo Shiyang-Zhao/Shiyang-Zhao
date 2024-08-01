@@ -7,11 +7,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&theme=dark&border_radius=5.5" alt="Top Languages" />
 </div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Shiyang-Zhao&color=blue" alt="Profile Views">
-  <img src="https://img.shields.io/github/followers/Shiyang-Zhao?label=Follow%20%40Shiyang-Zhao&style=social" alt="GitHub Followers">
-</p>
-
 <h1 align="center">Hi there, I'm Shiyang Zhao! 👋</h1>
 
 ## 👋 Welcome
@@ -48,6 +43,7 @@ I'm a Master of Computer Science candidate at the University of Illinois at Urba
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Shiyang-Zhao&color=blue" alt="Profile Views">
   <a href="https://www.linkedin.com/in/shiyang-zhao/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin"></a>
   <a href="https://shiyang-zhao.github.io/"><img src="https://img.shields.io/badge/Portfolio-Visit-yellow?style=flat&logo=google-chrome"></a>
   <a href="https://github.com/Shiyang-Zhao"><img src="https://img.shields.io/badge/GitHub-Follow-blue?style=flat&logo=github"></a>
