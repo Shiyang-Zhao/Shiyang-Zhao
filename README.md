@@ -29,14 +29,6 @@ I'm a Master of Computer Science candidate at the University of Illinois at Urba
 ### Tools & Platforms
 - **Git**, **Jenkins**, **Selenium**, **AWS**, **Google Cloud**, **Microsoft Azure**, **Heroku**, **Docker**
 
-## 🛠 Professional Experience
-
-### Software Engineer at RND4IMPACT INC. (March 2023 - Jan 2024)
-- Developed full-stack web applications utilizing Java, Python, TypeScript, Spring Boot, Next.js, and Django.
-- Implemented RESTful APIs and integrated third-party services to enhance application functionality and scalability.
-- Automated deployment processes using CI/CD pipelines with Jenkins, resulting in a 40% reduction in deployment time and fewer production issues.
-- Assisted in debugging and resolving software issues by writing and running automated tests, improving code quality and reducing bugs by 20%.
-
 ## 📫 Connect
 
 Feel free to reach out if you'd like to collaborate on a project or just want to say hi!
