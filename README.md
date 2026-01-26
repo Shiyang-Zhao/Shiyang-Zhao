@@ -38,7 +38,6 @@ Feel free to reach out if you'd like to collaborate on a project or just want to
   <a href="https://www.linkedin.com/in/shiyang-zhao/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin"></a>
   <a href="https://shiyang-zhao.github.io/"><img src="https://img.shields.io/badge/Portfolio-Visit-yellow?style=flat&logo=google-chrome"></a>
   <a href="https://github.com/Shiyang-Zhao"><img src="https://img.shields.io/badge/GitHub-Follow-blue?style=flat&logo=github"></a>
-  <a href="https://www.instagram.com/shawn_zhao0/"><img src="https://img.shields.io/badge/Instagram-Connect-orange?style=flat&logo=instagram"></a>
 </p>
 
 Looking forward to connecting with fellow developers! 😄
