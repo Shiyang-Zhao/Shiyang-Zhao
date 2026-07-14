@@ -1,48 +1,19 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:00C9FF,50:7B2FFF,100:FF2CDF&text=SOFTWARE%20ENGINEER&fontSize=44&fontColor=FFFFFF&fontAlignY=38&animation=twinkling&desc=Backend%20%E2%80%A2%20Cloud%20%E2%80%A2%20Distributed%20Systems&descSize=18&descAlignY=58" />
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono\&weight=600\&size=20\&duration=2200\&pause=700\&color=7B61FF\&center=true\&vCenter=true\&width=780\&lines=Java+%E2%80%A2+Python+%E2%80%A2+Go+%E2%80%A2+TypeScript;Docker+%E2%80%A2+Kubernetes+%E2%80%A2+AWS+%E2%80%A2+GCP;Spring+Boot+%E2%80%A2+FastAPI+%E2%80%A2+React+%E2%80%A2+Next.js)](https://git.io/typing-svg)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=118&color=0:151117,50:46151B,100:151117&text=SOFTWARE%20ENGINEER&fontSize=31&fontColor=F4E152&fontFamily=Impact&fontAlignY=39&stroke=B52D36&strokeWidth=1&animation=twinkling&desc=BACKEND%20-%20CLOUD%20-%20DISTRIBUTED%20SYSTEMS&descSize=11&descAlignY=64&descColor=DCEEF0" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7B2FFF?style=for-the-badge\&logo=googlechrome\&logoColor=white)](https://shiyang-zhao.github.io/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:shawnzhao189@gmail.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&duration=1850&pause=450&color=F4E152&center=true&vCenter=true&width=610&height=22&lines=Java+%E2%80%A2+Python+%E2%80%A2+Go+%E2%80%A2+TypeScript;Docker+%E2%80%A2+Kubernetes+%E2%80%A2+AWS+%E2%80%A2+GCP;Spring+Boot+%E2%80%A2+FastAPI+%E2%80%A2+React+%E2%80%A2+Next.js)](https://git.io/typing-svg)
 
-</div>
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-F4E152?style=flat-square&logo=googlechrome&logoColor=151117&labelColor=151117)](https://shiyang-zhao.github.io/)
+[![Email](https://img.shields.io/badge/EMAIL-B52D36?style=flat-square&logo=gmail&logoColor=F4E152&labelColor=151117)](mailto:shawnzhao189@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=Shiyang-Zhao&label=PROFILE+VIEWS&style=flat-square&color=B8DDE2&labelColor=151117)](https://github.com/Shiyang-Zhao)
 
-<br>
+[![Tech Stack](https://skillicons.dev/icons?i=java,py,go,js,ts,cs,c,cpp,html,css,spring,django,flask,fastapi,nodejs,express,nextjs,react,selenium,jenkins,postgres,mysql,mongodb,sqlite,redis,docker,kubernetes,aws,gcp,terraform&theme=dark&perline=15)](https://skillicons.dev)
 
-<h2 align="center">⚡ Tech Stack</h2>
+<img height="140" src="https://github-stats-extended.vercel.app/api?username=Shiyang-Zhao&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_color=5C2026&bg_color=151117&title_color=F4E152&text_color=E9E0C3&icon_color=B52D36" alt="GitHub Statistics" /><img height="140" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&langs_count=6&hide_border=false&border_color=5C2026&bg_color=151117&title_color=F4E152&text_color=E9E0C3" alt="Top Languages" />
 
-<div align="center">
+<img width="56%" src="https://streak-stats.demolab.com?user=Shiyang-Zhao&hide_border=false&border=5C2026&background=151117&stroke=F4E152&ring=F4E152&fire=B52D36&currStreakLabel=B8DDE2&sideLabels=E9E0C3&currStreakNum=F4E152&sideNums=FFFFFF&dates=8B7370&border_radius=4" alt="GitHub Streak" />
 
-[![Tech Stack](https://skillicons.dev/icons?i=java,py,go,js,ts,cs,cpp,html,css,spring,django,flask,fastapi,nodejs,express,nextjs,react,selenium,jenkins,aws,gcp,docker,kubernetes,terraform,postgres,mysql,mongodb,sqlite,redis\&theme=dark\&perline=10)](https://skillicons.dev)
-
-</div>
-
-<br>
-
-<h2 align="center">📊 GitHub Statistics</h2>
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shiyang-Zhao&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&theme=tokyonight" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" />
-
-<br>
-
-<img width="68%" src="https://streak-stats.demolab.com?user=Shiyang-Zhao&theme=tokyonight&hide_border=true&border_radius=10" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=48&section=footer&color=0:151117,45:46151B,78:F4E152,100:151117" />
 
 </div>
-
-<br>
-
-<h2 align="center">📈 Contribution Activity</h2>
-
-<div align="center">
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shiyang-Zhao&theme=tokyo-night&hide_border=true&area=true&radius=10" />
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C9FF,50:7B2FFF,100:FF2CDF" />
