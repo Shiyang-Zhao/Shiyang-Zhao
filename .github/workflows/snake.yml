@@ -22,80 +22,105 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#F4E152&color_dots=#24151A,#5C2026,#B52D36,#B8DDE2,#F4E152
 
-      - name: Add full-width cyberpunk background
+      - name: Resize snake to full-width cyberpunk panel
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
+          import re
 
           path = Path("dist/github-contribution-grid-snake.svg")
           svg = path.read_text(encoding="utf-8")
 
-          svg_start = svg.find("<svg")
-          svg_open_end = svg.find(">", svg_start)
-          svg_close = svg.rfind("</svg>")
+          root_match = re.search(r"<svg\b([^>]*)>(.*)</svg>", svg, re.DOTALL)
 
-          if svg_start == -1 or svg_open_end == -1 or svg_close == -1:
+          if not root_match:
               raise RuntimeError("Could not locate the SVG root element.")
 
-          background = '''
-          <defs>
-            <pattern
-              id="cyberScanlines"
-              width="4"
-              height="4"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                width="4"
-                height="1"
-                fill="#F4E152"
-                opacity="0.035"
-              />
-            </pattern>
-          </defs>
+          root_attributes = root_match.group(1)
+          original_content = root_match.group(2)
 
-          <rect
-            x="0"
-            y="0"
-            width="100%"
-            height="100%"
-            fill="#151117"
-          />
-
-          <rect
-            x="0"
-            y="0"
-            width="100%"
-            height="100%"
-            fill="url(#cyberScanlines)"
-          />
-          '''
-
-          frame = '''
-          <rect
-            x="1"
-            y="1"
-            width="99.7%"
-            height="98.5%"
-            rx="4"
-            fill="none"
-            stroke="#5C2026"
-            stroke-width="2"
-            vector-effect="non-scaling-stroke"
-          />
-          '''
-
-          # Insert the background directly into the original animated SVG.
-          svg = (
-              svg[:svg_open_end + 1]
-              + background
-              + svg[svg_open_end + 1:svg_close]
-              + frame
-              + svg[svg_close:]
+          viewbox_match = re.search(
+              r'viewBox=["\']([^"\']+)["\']',
+              root_attributes
           )
 
-          path.write_text(svg, encoding="utf-8")
+          if not viewbox_match:
+              raise RuntimeError("Could not locate the original SVG viewBox.")
+
+          min_x, min_y, original_width, original_height = map(
+              float,
+              viewbox_match.group(1).split()
+          )
+
+          panel_width = 900
+          padding_x = 18
+          padding_y = 14
+
+          available_width = panel_width - (padding_x * 2)
+
+          scale = available_width / original_width
+          scaled_height = original_height * scale
+          panel_height = round(scaled_height + padding_y * 2)
+
+          translate_x = padding_x - (min_x * scale)
+          translate_y = padding_y - (min_y * scale)
+
+          final_svg = f'''<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="{panel_width}"
+            height="{panel_height}"
+            viewBox="0 0 {panel_width} {panel_height}"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <defs>
+              <pattern
+                id="cyberScanlines"
+                width="4"
+                height="4"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  width="4"
+                  height="1"
+                  fill="#F4E152"
+                  opacity="0.035"
+                />
+              </pattern>
+            </defs>
+
+            <rect
+              width="{panel_width}"
+              height="{panel_height}"
+              rx="4"
+              fill="#151117"
+            />
+
+            <rect
+              width="{panel_width}"
+              height="{panel_height}"
+              rx="4"
+              fill="url(#cyberScanlines)"
+            />
+
+            <g transform="translate({translate_x:.4f} {translate_y:.4f}) scale({scale:.6f})">
+              {original_content}
+            </g>
+
+            <rect
+              x="1"
+              y="1"
+              width="{panel_width - 2}"
+              height="{panel_height - 2}"
+              rx="4"
+              fill="none"
+              stroke="#5C2026"
+              stroke-width="2"
+              vector-effect="non-scaling-stroke"
+            />
+          </svg>'''
+
+          path.write_text(final_svg, encoding="utf-8")
           PY
 
       - name: Publish snake to output branch
