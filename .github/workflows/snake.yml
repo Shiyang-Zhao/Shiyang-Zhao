@@ -2,7 +2,6 @@ name: Generate Cyberpunk Contribution Snake
 
 on:
   schedule:
-    # Runs every day at 03:17 UTC
     - cron: "17 3 * * *"
   workflow_dispatch:
 
@@ -15,63 +14,33 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate animated contribution snake
+      - name: Generate raw contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Shiyang-Zhao
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#F4E152&color_dots=#24151A,#5C2026,#B52D36,#B8DDE2,#F4E152
+            dist/raw-snake.svg?color_snake=#F4E152&color_dots=#24151A,#5C2026,#B52D36,#B8DDE2,#F4E152
 
-      - name: Resize snake to full-width cyberpunk panel
+      - name: Wrap snake in a full-width cyberpunk panel
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          import re
+          import base64
 
-          path = Path("dist/github-contribution-grid-snake.svg")
-          svg = path.read_text(encoding="utf-8")
+          raw_path = Path("dist/raw-snake.svg")
+          final_path = Path("dist/github-contribution-grid-snake.svg")
 
-          root_match = re.search(r"<svg\b([^>]*)>(.*)</svg>", svg, re.DOTALL)
+          raw_bytes = raw_path.read_bytes()
+          encoded = base64.b64encode(raw_bytes).decode("ascii")
 
-          if not root_match:
-              raise RuntimeError("Could not locate the SVG root element.")
-
-          root_attributes = root_match.group(1)
-          original_content = root_match.group(2)
-
-          viewbox_match = re.search(
-              r'viewBox=["\']([^"\']+)["\']',
-              root_attributes
-          )
-
-          if not viewbox_match:
-              raise RuntimeError("Could not locate the original SVG viewBox.")
-
-          min_x, min_y, original_width, original_height = map(
-              float,
-              viewbox_match.group(1).split()
-          )
-
-          panel_width = 900
-          padding_x = 18
-          padding_y = 14
-
-          available_width = panel_width - (padding_x * 2)
-
-          scale = available_width / original_width
-          scaled_height = original_height * scale
-          panel_height = round(scaled_height + padding_y * 2)
-
-          translate_x = padding_x - (min_x * scale)
-          translate_y = padding_y - (min_y * scale)
-
-          final_svg = f'''<svg
+          wrapped_svg = f'''<svg
             xmlns="http://www.w3.org/2000/svg"
-            width="{panel_width}"
-            height="{panel_height}"
-            viewBox="0 0 {panel_width} {panel_height}"
-            preserveAspectRatio="xMidYMid meet"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="900"
+            height="180"
+            viewBox="0 0 900 180"
+            fill="none"
           >
             <defs>
               <pattern
@@ -90,37 +59,47 @@ jobs:
             </defs>
 
             <rect
-              width="{panel_width}"
-              height="{panel_height}"
+              width="900"
+              height="180"
               rx="4"
               fill="#151117"
             />
 
             <rect
-              width="{panel_width}"
-              height="{panel_height}"
+              width="900"
+              height="180"
               rx="4"
               fill="url(#cyberScanlines)"
             />
 
-            <g transform="translate({translate_x:.4f} {translate_y:.4f}) scale({scale:.6f})">
-              {original_content}
-            </g>
+            <image
+              x="0"
+              y="0"
+              width="900"
+              height="180"
+              preserveAspectRatio="none"
+              xlink:href="data:image/svg+xml;base64,{encoded}"
+            />
 
             <rect
               x="1"
               y="1"
-              width="{panel_width - 2}"
-              height="{panel_height - 2}"
+              width="898"
+              height="178"
               rx="4"
               fill="none"
               stroke="#5C2026"
               stroke-width="2"
-              vector-effect="non-scaling-stroke"
             />
           </svg>'''
 
-          path.write_text(final_svg, encoding="utf-8")
+          final_path.write_text(
+              wrapped_svg,
+              encoding="utf-8"
+          )
+
+          # Remove the temporary source SVG.
+          raw_path.unlink()
           PY
 
       - name: Publish snake to output branch
