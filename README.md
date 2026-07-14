@@ -10,9 +10,13 @@
 
 [![Tech Stack](https://skillicons.dev/icons?i=java,py,go,js,ts,cs,c,cpp,html,css,spring,django,flask,fastapi,nodejs,express,nextjs,react,selenium,jenkins,postgres,mysql,mongodb,sqlite,redis,docker,kubernetes,aws,gcp,terraform&theme=dark&perline=15)](https://skillicons.dev)
 
-<img height="140" src="https://github-stats-extended.vercel.app/api?username=Shiyang-Zhao&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_color=5C2026&bg_color=151117&title_color=F4E152&text_color=E9E0C3&icon_color=B52D36" alt="GitHub Statistics" /><img height="140" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&langs_count=6&hide_border=false&border_color=5C2026&bg_color=151117&title_color=F4E152&text_color=E9E0C3" alt="Top Languages" />
+<img width="100%" src="https://github-stats-extended.vercel.app/api?username=Shiyang-Zhao&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_color=5C2026&bg_color=151117&title_color=F4E152&text_color=E9E0C3&icon_color=B52D36&card_width=900" alt="GitHub Statistics" />
 
-<img width="56%" src="https://streak-stats.demolab.com?user=Shiyang-Zhao&hide_border=false&border=5C2026&background=151117&stroke=F4E152&ring=F4E152&fire=B52D36&currStreakLabel=B8DDE2&sideLabels=E9E0C3&currStreakNum=F4E152&sideNums=FFFFFF&dates=8B7370&border_radius=4" alt="GitHub Streak" />
+<img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Shiyang-Zhao&layout=compact&langs_count=6&hide_border=false&border_color=5C2026&bg_color=151117&title_color=F4E152&text_color=E9E0C3&card_width=900" alt="Most Used Languages" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shiyang-Zhao&bg_color=151117&color=E9E0C3&line=F4E152&point=B8DDE2&area=true&area_color=46151B&border_color=5C2026&hide_border=false&hide_title=true&radius=4&height=220&days=40&grid=true" alt="Contribution Activity Graph" />
+
+<img width="100%" src="https://streak-stats.demolab.com?user=Shiyang-Zhao&hide_border=false&border=5C2026&background=151117&stroke=F4E152&ring=F4E152&fire=B52D36&currStreakLabel=B8DDE2&sideLabels=E9E0C3&currStreakNum=F4E152&sideNums=FFFFFF&dates=8B7370&border_radius=4&card_width=900&card_height=190" alt="GitHub Streak" />
 
 <img width="100%" src="./assets/cyber-footer.svg" alt="" />
 
