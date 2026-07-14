@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=118&color=0:151117,50:46151B,100:151117&text=SOFTWARE%20ENGINEER&fontSize=31&fontColor=F4E152&fontFamily=Impact&fontAlignY=39&stroke=B52D36&strokeWidth=1&animation=twinkling&desc=BACKEND%20-%20CLOUD%20-%20DISTRIBUTED%20SYSTEMS&descSize=11&descAlignY=64&descColor=DCEEF0" />
+<img width="100%" src="./assets/cyber-header.svg" alt="Software Engineer" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&duration=1850&pause=450&color=F4E152&center=true&vCenter=true&width=610&height=22&lines=Java+%E2%80%A2+Python+%E2%80%A2+Go+%E2%80%A2+TypeScript;Docker+%E2%80%A2+Kubernetes+%E2%80%A2+AWS+%E2%80%A2+GCP;Spring+Boot+%E2%80%A2+FastAPI+%E2%80%A2+React+%E2%80%A2+Next.js)](https://git.io/typing-svg)
 
