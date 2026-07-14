@@ -14,33 +14,91 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate raw contribution snake
+      - name: Generate animated contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Shiyang-Zhao
           outputs: |
             dist/raw-snake.svg?color_snake=#F4E152&color_dots=#24151A,#5C2026,#B52D36,#B8DDE2,#F4E152
 
-      - name: Wrap snake in a full-width cyberpunk panel
+      - name: Create full-width animated cyberpunk panel
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          import base64
+          import re
 
           raw_path = Path("dist/raw-snake.svg")
-          final_path = Path("dist/github-contribution-grid-snake.svg")
+          final_path = Path(
+              "dist/github-contribution-grid-snake.svg"
+          )
 
-          raw_bytes = raw_path.read_bytes()
-          encoded = base64.b64encode(raw_bytes).decode("ascii")
+          svg = raw_path.read_text(encoding="utf-8")
 
-          wrapped_svg = f'''<svg
+          root_match = re.search(
+              r"<svg\b([^>]*)>(.*)</svg>",
+              svg,
+              re.DOTALL
+          )
+
+          if not root_match:
+              raise RuntimeError(
+                  "Could not locate the SVG root element."
+              )
+
+          root_attributes = root_match.group(1)
+          original_content = root_match.group(2)
+
+          viewbox_match = re.search(
+              r'viewBox=["\']([^"\']+)["\']',
+              root_attributes
+          )
+
+          if not viewbox_match:
+              raise RuntimeError(
+                  "Could not locate the original SVG viewBox."
+              )
+
+          values = viewbox_match.group(1).split()
+
+          if len(values) != 4:
+              raise RuntimeError(
+                  "The original SVG viewBox is invalid."
+              )
+
+          min_x, min_y, original_width, original_height = map(
+              float,
+              values
+          )
+
+          panel_width = 900
+          horizontal_padding = 12
+          vertical_padding = 12
+
+          available_width = (
+              panel_width - horizontal_padding * 2
+          )
+
+          scale = available_width / original_width
+
+          scaled_height = original_height * scale
+          panel_height = round(
+              scaled_height + vertical_padding * 2
+          )
+
+          translate_x = (
+              horizontal_padding - min_x * scale
+          )
+
+          translate_y = (
+              vertical_padding - min_y * scale
+          )
+
+          final_svg = f'''<svg
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="900"
-            height="180"
-            viewBox="0 0 900 180"
-            fill="none"
+            width="{panel_width}"
+            height="{panel_height}"
+            viewBox="0 0 {panel_width} {panel_height}"
           >
             <defs>
               <pattern
@@ -59,46 +117,44 @@ jobs:
             </defs>
 
             <rect
-              width="900"
-              height="180"
+              width="{panel_width}"
+              height="{panel_height}"
               rx="4"
               fill="#151117"
             />
 
             <rect
-              width="900"
-              height="180"
+              width="{panel_width}"
+              height="{panel_height}"
               rx="4"
               fill="url(#cyberScanlines)"
             />
 
-            <image
-              x="0"
-              y="0"
-              width="900"
-              height="180"
-              preserveAspectRatio="none"
-              xlink:href="data:image/svg+xml;base64,{encoded}"
-            />
+            <g transform="
+              translate({translate_x:.4f} {translate_y:.4f})
+              scale({scale:.6f})
+            ">
+              {original_content}
+            </g>
 
             <rect
               x="1"
               y="1"
-              width="898"
-              height="178"
+              width="{panel_width - 2}"
+              height="{panel_height - 2}"
               rx="4"
               fill="none"
               stroke="#5C2026"
               stroke-width="2"
+              vector-effect="non-scaling-stroke"
             />
           </svg>'''
 
           final_path.write_text(
-              wrapped_svg,
+              final_svg,
               encoding="utf-8"
           )
 
-          # Remove the temporary source SVG.
           raw_path.unlink()
           PY
 
