@@ -14,6 +14,6 @@
 
 <img width="56%" src="https://streak-stats.demolab.com?user=Shiyang-Zhao&hide_border=false&border=5C2026&background=151117&stroke=F4E152&ring=F4E152&fire=B52D36&currStreakLabel=B8DDE2&sideLabels=E9E0C3&currStreakNum=F4E152&sideNums=FFFFFF&dates=8B7370&border_radius=4" alt="GitHub Streak" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=48&section=footer&color=0:151117,45:46151B,78:F4E152,100:151117" />
+<img width="100%" src="./assets/cyber-footer.svg" alt="" />
 
 </div>
